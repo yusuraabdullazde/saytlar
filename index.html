@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            height: 600px;
+            background-color:white;
+            display: flex;
+            justify-content: center;
+           flex-wrap: wrap;
+           align-items: center;
+        }
+        .container div{
+            width: 500px;
+            height: 300px;
+            background-color: beige;
+        }
+        .container h1, .container p{
+            font-size: 30px;
+            color: white;
+            text-align: center;
+            padding-top:40px ;
+            font-style: italic;
+        }
+        .container p{font-size: 20px;}
+
+        .container img{
+            width: 100%;
+            height: 100%;
+        }
+        .first{
+            width: 100%;
+            height: 600px;
+            display:flex;
+            flex-direction: column;
+            gap: 50px;
+            align-items: center;
+            padding-top: 40px;
+        }
+        .blok1{
+            width: 450px;
+            height: 80px;
+            color: antiquewhite;
+        }
+        .blok1 h1{
+            font-size: 40px;
+            color: black
+        }
+        .blok2{
+            width: 750px;
+          height: 250px;
+          display: flex;
+          justify-content: center;
+          gap: 50px;
+        }
+        .blok2 div{
+            width: 250px;
+            height: 250px;
+        }
+        .blok2 img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        h2,p{
+            text-align: center;
+        }
+        h2{
+            margin-bottom: 16px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div style="background-color:white">
+    <img src="https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/demo-image-01.jpg" alt=""></div>
+      <div style="background-color:black">
+        <h1>Misty</h1>
+        <p>An example of where you can put an image of a project, or anything else, along with a description.</p>
+    </div>
+      <div style="background-color:black">
+        <h1>Mountains</h1>
+        <p>Another example of a project with its respective description. These sections work well responsively as well!</p>  
+    </div>
+      <div style="background-color:white">
+        <img src="https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/demo-image-02.jpg" alt=""></div>
+      </div>
+    </div>
+    <div class="first">
+        <div class="blok1">
+            <h1>What people are saying...
+            </h1>
+        </div>
+        <div class="blok2">
+            <div>
+                <img src="https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/testimonials-1.jpg" alt="">
+                <h2>Margaret E.</h2>
+                <p>"This is fantastic! Thanks so much guys!"</p>
+            </div>
+            <div>
+                <img src="https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/testimonials-2.jpg" alt="">
+                <h2>Fred S.</h2>
+                <p>"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+            </div>
+            <div>
+                <img src="https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/testimonials-3.jpg" alt="">
+                <h2>Sarah W.</h2>
+                <p>"Thanks so much for making these free resources available to us!"</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
